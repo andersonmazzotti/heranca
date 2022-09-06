@@ -11,8 +11,8 @@ package heranca;
  */
 public class automovel extends terrestre{
     
-    private String placa;
-    private int numPortas;
+    protected String placa;
+    protected int numPortas;
     
     
     public void imprimeDados() {
@@ -24,6 +24,14 @@ public class automovel extends terrestre{
     
     }
 
+    public void imprimeDadosMoto() {
+    
+        System.out.println("Placa: "+placa);
+        System.out.println("Portas: "+numPortas);
+        System.out.println("Rodas: "+numRodas);
+        System.out.println("Capacidade: "+capacidade+" pessoas");
+    
+    }
     
     
     public String getPlaca() {

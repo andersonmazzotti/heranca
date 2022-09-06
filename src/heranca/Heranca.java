@@ -29,6 +29,17 @@ public class Heranca {
     
     carro.imprimeDados();
     
+    
+    
+    
+    moto.setPlaca("MOT 1020");
+    moto.setCapacidade (2);
+    moto.setNumPortas(2);
+    
+    moto.imprimeDadosMoto();
+    
+    
+    
    
     
         
