@@ -9,6 +9,28 @@ package heranca;
  *
  * @author anderson.mazzotti
  */
-public class automovel {
+public class automovel extends terrestre{
+    
+    private String placa;
+    private int numPortas;
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public int getNumPortas() {
+        return numPortas;
+    }
+
+    public void setNumPortas(int numPortas) {
+        this.numPortas = numPortas;
+    }
+    
+    
+    
     
 }
