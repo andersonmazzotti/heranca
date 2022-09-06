@@ -12,7 +12,7 @@ package heranca;
 public class transporte {
     
     
-    private int capacidade;
+    protected int capacidade;
 
     public int getCapacidade() {
         return capacidade;

@@ -13,7 +13,19 @@ public class automovel extends terrestre{
     
     private String placa;
     private int numPortas;
+    
+    
+    public void imprimeDados() {
+    
+        System.out.println("Placa: "+placa);
+        System.out.println("Portas: "+numPortas);
+        System.out.println("Rodas: "+numRodas);
+        System.out.println("Capacidade: "+capacidade+" pessoas");
+    
+    }
 
+    
+    
     public String getPlaca() {
         return placa;
     }

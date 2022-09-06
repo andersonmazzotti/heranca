@@ -11,7 +11,7 @@ package heranca;
  */
 public class terrestre extends transporte{
     
-    private int numRodas;
+    protected int numRodas;
 
     public int getNumRodas() {
         return numRodas;
